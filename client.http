@@ -1,0 +1,21 @@
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+    "code": "iansilva",
+    "url": "https://iansilva.dev"
+}
+
+###
+
+GET http://localhost:3333/api/links
+
+
+###
+
+GET http://localhost:3333/api/metrics
+
+
+###
+
+GET http://localhost:3333/iansilva
